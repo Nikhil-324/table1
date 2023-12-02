@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .table {
+    width: 100%;
+    border: 2px solid #ddd; 
+  }
+  
+  .table th,
+  .table td {
+    padding: 10px; 
+  }
+  tr:hover {background-color: #ddd;}#customers tr:hover {background-color: #ddd;}
+  .table th { 
+    text-align: left;
+  }
+ td{
+    border-bottom: 1px solid #ddd;
+ }
+ .pagination-container{
+    display: flex;
+    justify-content: flex-end;
+    
+ }
+ ul{
+    display: flex;
+    list-style: none;
+ }
+ li{
+    padding: 4px;
+ }
+ .bottom{
+    display: flex;
+    justify-content: space-between;
+ }
+ tr.selected {
+    background-color: #ccc; 
+  }
+ 
+ .page-items.current-page button {
+   background-color: #007bff; 
+   color: #fff; 
+ }
+ .delet-selected{
+    margin-top: 10px;
+    height: 30px;
+ }
+  .checkbox {
+    width: 20px; 
+    height: 20px; 
+  }
+  .search {
+    width: 300px;
+    height: 20px;
+  }
+  
